@@ -1,7 +1,7 @@
 {
   "name": "accent-color",
   "main": "./lib/inkdrop-accent-color",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Inkdrop plugin to change the accent color",
   "keywords": [],
   "repository": "https://github.com/yaeda/inkdrop-accent-color",
