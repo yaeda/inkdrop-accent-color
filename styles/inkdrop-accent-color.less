@@ -1,0 +1,39 @@
+@accent-color: var(--inkdrop-accent-color_accent-color);
+@accent-color-background: var(--inkdrop-accent-color_accent-color-background);
+@border-width: var(--inkdrop-accent-color_right-border-width);
+
+.note-list-bar-item .note-list-item-view.active {
+  border-right-color: @accent-color;
+  border-right-width: @border-width;
+  border-right-style: solid;
+}
+
+.ui.toggle.checkbox input[type]:checked ~ .box:before,
+.ui.toggle.checkbox input[type]:checked ~ label:before,
+.ui.toggle.checkbox input[type]:focus:checked ~ .box:before,
+.ui.toggle.checkbox input[type]:focus:checked ~ label:before {
+  background-color: @accent-color !important;
+}
+
+.preferences-view a,
+.preferences-view a:hover {
+  color: @accent-color;
+}
+
+.ui.primary.buttons .button,
+.ui.primary.button {
+  background-color: @accent-color !important;
+  color: var(--text-color) !important;
+}
+
+:root {
+  --link-color: @accent-color !important;
+  --link-hove-color: @accent-color !important;
+  --note-list-view-item-active-background: @accent-color-background !important;
+  --note-list-view-item-date-color: @accent-color !important;
+  --note-list-view-item-tag-color: @accent-color !important;
+  --preferences-sidebar-item-active-background: @accent-color-background !important;
+  --primary-color: @accent-color !important;
+  --primary-color-focus: @accent-color !important;
+  --sidebar-menu-action-hover-color: @accent-color !important;
+}
