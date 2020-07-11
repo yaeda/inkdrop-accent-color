@@ -7,6 +7,7 @@ Choose your favorite color
 |             ![before][before_image]             |             ![after][after_image]             |
 | ![before preferences][before_preferences_image] | ![after preferences][after_preferences_image] |
 
+_Theme: [vibrant-dark-ui](https://my.inkdrop.app/plugins/vibrant-dark-ui)_
 
 ## Installation
 
@@ -28,6 +29,8 @@ This option sets the alpha to 100%.
 |         Default         |      Solid Background       |
 | :---------------------: | :-------------------------: |
 | ![default][after_image] | ![solid][after_solid_image] |
+
+_Theme: [vibrant-dark-ui](https://my.inkdrop.app/plugins/vibrant-dark-ui)_
 
 ## Changelog
 
